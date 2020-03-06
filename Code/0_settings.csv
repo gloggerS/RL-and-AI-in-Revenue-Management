@@ -1,0 +1,9 @@
+Example	threeParallelFlights
+use_var_capacities	True
+storage of value expected	1
+K	60
+I	800
+epsilon	[0, *([0.05]*10), *([0.01]*10), *([0]*40)]
+exponential_smoothing	True
+continue_with_evaluation	True
+online_K	5000
